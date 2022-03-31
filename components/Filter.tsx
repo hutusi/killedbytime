@@ -27,11 +27,11 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
       label: `Social (${getCount('social')})`,
     },
     {
-      value: FilterType.SERVICE,
+      value: FilterType.MUSIC,
       label: `Music (${getCount('music')})`,
     },
     {
-      value: FilterType.HARDWARE,
+      value: FilterType.BLOG,
       label: `Blog (${getCount('blog')})`,
     }
   ];

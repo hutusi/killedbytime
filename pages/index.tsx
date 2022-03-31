@@ -40,8 +40,8 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Killed by Google" />
                 <meta name="twitter:description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
-                <meta name="twitter:site" content="@killedbygoogle" />
-                <meta name="twitter:creator" content="@killedbygoogle" />
+                <meta name="twitter:site" content="@hutusi" />
+                <meta name="twitter:creator" content="@hutusi" />
                 <meta name="twitter:image:src" content="https://killedbygoogle.com/social/card-twitter.png" />
                 <meta name="og:title" property="og:title" content="Killed by Google" />
                 <meta name="og:url" property="og:url" content="https://killedbygoogle.com" />
