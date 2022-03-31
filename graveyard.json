@@ -86,5 +86,69 @@
     "link": "https://zh.wikipedia.org/wiki/%E8%99%BE%E7%B1%B3%E9%9F%B3%E4%B9%90",
     "name": "虾米音乐",
     "type": "music"
+  },
+  {
+    "dateClose": "2010-10-21",
+    "dateOpen": "1999-05-18",
+    "description": "8848是中国最早的电子商务平台，由王峻涛创办。",
+    "link": "https://baike.baidu.com/item/8848/846311",
+    "name": "8848.com",
+    "type": "e-commerce"
+  },
+  {
+    "dateClose": "2011-10-27",
+    "dateOpen": "2000-01-01",
+    "description": "2000年1月，卓越网从金山分拆，金山、联想分别为第一、第二大股东，当时主营是图书和音像制品。2004年8月19日，亚马逊收购卓越网。2011年10月27日，卓越亚马逊更名为亚马逊中国，并启用短域名z.cn。",
+    "link": "http://www.zhaoniupai.com/archives/194.html",
+    "name": "卓越网",
+    "type": "e-commerce"
+  },
+  {
+    "dateClose": "2018-01-01",
+    "dateOpen": "2004-01-01",
+    "description": "博客大巴(blogbus.com)是国内第一家博客托管服务商(BSP)，也是首家商业运作、提供收费服务的中文博客网站。",
+    "link": "https://baike.baidu.com/item/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E5%B7%B4/10704403",
+    "name": "博客大巴",
+    "type": "blog"
+  },
+  {
+    "dateClose": "2018-01-01",
+    "dateOpen": "2004-03-01",
+    "description": "歪酷博客(www.ycool.com)也是曾经流行一时的博客托管服务，最终不了了之。",
+    "link": "https://baike.baidu.com/item/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E5%B7%B4/10704403",
+    "name": "歪酷博客",
+    "type": "blog"
+  },
+  {
+    "dateClose": "2020-01-01",
+    "dateOpen": "2003-03-01",
+    "description": "落网，推荐国内外独立音乐的网站。",
+    "link": "https://www.gcores.com/articles/123686",
+    "name": "落网",
+    "type": "music"
+  },
+  {
+    "dateClose": "2015-01-01",
+    "dateOpen": "2010-05-01",
+    "description": "「街旁网」是中国最早基于LBS(地理位置服务)的社交网站，模仿当时很火的 Foursquare。",
+    "link": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E8%81%8A",
+    "name": "街旁网",
+    "type": "social"
+  },
+  {
+    "dateClose": "2014-10-01",
+    "dateOpen": "2010-03-01",
+    "description": "「拉手网」曾经是中国最大的团购网站，但千团大战之后，只剩下了「美团」。",
+    "link": "https://tech.qq.com/a/20180724/014402.htm",
+    "name": "拉手网",
+    "type": "social"
+  },
+  {
+    "dateClose": "2016-07-20",
+    "dateOpen": "2010-05-01",
+    "description": "「乌云网」将自身标榜为「自由平等的漏洞报告平台」，曾经是中国最大的白帽黑客社区和漏洞报告平台。",
+    "link": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E4%BA%91%E7%BD%91",
+    "name": "乌云网",
+    "type": "technology"
   }
 ]
