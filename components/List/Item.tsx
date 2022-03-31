@@ -6,6 +6,7 @@ import {
   parseISO,
   formatDistanceToNow,
 } from 'date-fns';
+import { zhCN } from 'date-fns/locale';
 
 import { ProductWithSlug } from '../../types/Product';
 
@@ -54,12 +55,12 @@ export default function Item(props: ProductWithSlug) {
   };
 
   const getYears = () => {
-    const duration = formatDistance(parseISO(props.dateClose), parseISO(props.dateOpen));
+    const duration = formatDistance(parseISO(props.dateClose), parseISO(props.dateOpen), { locale: zhCN });
 
     if (!isPast()) {
-      return ` It will be ${duration} old.`;
+      return ` 将存活${duration}。`;
     }
-    return ` It was ${duration} old.`;
+    return ` 存活了${duration}。`;
   };
 
   const getIcon = () => {
@@ -72,12 +73,12 @@ export default function Item(props: ProductWithSlug) {
 
   const TimePhrase = (slug: string) => {
     let dateCloseISO = parseISO(props.dateClose);
-    const relativeDate = formatDistanceToNow(dateCloseISO);
+    const relativeDate = formatDistanceToNow(dateCloseISO, { locale: zhCN });
     const futureDeathPhrase = useMemo(() => `${soonToDieIdiom()} in ${relativeDate}, `, [relativeDate]);
     if (!isPast()) {
       return <span suppressHydrationWarning>{futureDeathPhrase}</span>;
     }
-    return <span>{`Killed ${relativeDate} ago, `}</span>;
+    return <span>{`已关闭${relativeDate}。`}</span>;
   };
 
   const ageRange = () => {

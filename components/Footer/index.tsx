@@ -91,7 +91,22 @@ const Footer = () => (
                         我们希望在这里记录那些已经消失的名字，让它们存在我们的记忆中。
                     </p>
                     <p>
-                        这是一个开源的项目，欢迎你的加入。你可以往项目中添加产品，也可以在<a href="https://github.com/hutusi/killedbytimehttps://github.com/hutusi/killedbytime/issues">「GitHub issue」</a>中讨论，提供信息。
+                        这是一个开源的项目，网站源码和灵感皆来自于「<a
+                            href="https://killedbygoogle.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Killed by Google
+            </a>」
+            。像该项目一样，你可以往
+            <a
+                            href="https://github.com/hutusi/killedbytime"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        「Killed by Time」项目
+            </a>
+            中添加产品信息，也可以在<a href="https://github.com/hutusi/killedbytime/issues">「GitHub issue」</a>中评论，
                         或者联系我：
             <a
                             href="https://hutusi.com"
