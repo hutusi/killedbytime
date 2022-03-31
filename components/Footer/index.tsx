@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from './Footer.atoms';
-import { PressCoverage } from '../../components';
+// import { PressCoverage } from '../../components';
 import Link from 'next/link';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
@@ -73,7 +73,7 @@ const SocialWrapper = styled.div(() => css({
 
 const Footer = () => (
     <>
-        <PressCoverage />
+        {/* <PressCoverage /> */}
         <FooterContainer>
             <FlexWrap>
                 <FooterTitle>
@@ -82,52 +82,30 @@ const Footer = () => (
                     }}>
                         <img height="60px" width="60px" src='/tombstone-alt.svg' alt="Tombstone" />
                     </div>
-                    <Title>Killed by Google</Title>
+                    <Title>纪念碑谷</Title>
                 </FooterTitle>
                 <div>
                     <p>
-                        Killed by Google is the Google graveyard; a free and open source
-                        list of discontinued Google services, products, devices, and apps.
-                        We aim to be a source of factual information about the history
-                        surrounding Google&apos;s dead projects.
-          </p>
+                        「纪念碑谷」是一个纪念那些曾经辉煌过而已死亡的中文互联网产品。有很多优秀的产品，打败它们的往往不是敌人或自己，而是时间。 
+                        
+                        我们希望在这里记录那些已经消失的名字，让它们存在我们的记忆中。
+                    </p>
                     <p>
-                        <a
-                            href="https://github.com/codyogden/killedbygoogle/graphs/contributors"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Contributors
-            </a>
-            &nbsp;from around the world help compile, research, and maintain the
-            information about dying and dead Google products. You can join the
-            discussion on&nbsp;
-            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>, or
-            follow us on&nbsp;
-            <a href="https://twitter.com/killedbygoogle">Twitter</a>. A project
-            by&nbsp;
+                        这是一个开源的项目，欢迎你的加入。你可以往项目中添加产品，也可以在<a href="https://github.com/hutusi/killedbytimehttps://github.com/hutusi/killedbytime/issues">「GitHub issue」</a>中讨论，提供信息。
+                        或者联系我：
             <a
-                            href="https://codyogden.com"
+                            href="https://hutusi.com"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Cody Ogden
+                            hutusi.com
             </a>
-            .
           </p>
-                    <p>
-                        Press inquiries and other assorted death threats?
-            <br />
-            Throw a&nbsp;
-            <a href="mailto:knife@killedbygoogle.com">
-                            knife@killedbygoogle.com
-            </a>
-            .
-          </p>
+                    
                 </div>
                 <CopyNotice>
-                    <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
-                        &copy; 2022 Cody Ogden.
+                    <a href="https://github.com/hutusi/killedbygoogle/blob/main/LICENSE">
+                        &copy; 2022 hutusi.com
           </a>
           &nbsp;-&nbsp;
           <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">
@@ -140,12 +118,12 @@ const Footer = () => (
                 </CopyNotice>
                 <SocialWrapper>
                     <SocialLink
-                        url="https://github.com/codyogden/killedbygoogle"
+                        url="https://github.com/hutusi/killedbygoogle"
                         altText="GitHub"
                         imgSrc='/github.svg'
                     />
                     <SocialLink
-                        url="https://twitter.com/killedbygoogle"
+                        url="https://twitter.com/hutusi"
                         altText="Twitter"
                         imgSrc='/twitter.svg'
                     />

@@ -27,7 +27,7 @@ jobs:
       uses: jakepartusch/wait-for-netlify-action@v1.3
       id: waitFor200
       with:
-        site_name: "killedbygoogle"
+        site_name: "killedbytime"
         max_timeout: 360
     - name: Run Playwright tests
       run: npx -p @playwright/test playwright test

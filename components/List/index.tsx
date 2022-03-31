@@ -108,13 +108,13 @@ const AdPlaceholder = styled.a(() => css({
     },
 }));
 
-export const FallbackAd = () => <Link passHref href="https://twitter.com/killedbygoogle">
+export const FallbackAd = () => <Link passHref href="https://twitter.com/hutusi">
     <AdPlaceholder target="_blank" rel="noopener noreferrer">
         <div>
             <div>
                 <img src="twitter-blue.svg" alt="Twitter" />
             </div>
-            <div>Follow @killedbygoogle on Twitter.</div>
+            <div>Follow @hutusi on Twitter.</div>
         </div>
     </AdPlaceholder>
 </Link>;
@@ -138,10 +138,10 @@ type Props = {
 
 const List: React.FC<Props> = ({ items }) => (
     <ListContainer>
-        <AdContainer>
+        {/* <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
-        </AdContainer>
+        </AdContainer> */}
         {items.map(item => (
             <Item key={item.slug} {...item} />
         ))}

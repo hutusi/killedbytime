@@ -30,7 +30,7 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
                 <meta name="description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
                 <link rel="shortcut icon" href="favicon.png" />
-                <title>Google Graveyard - Killed by Google</title>
+                <title>纪念碑谷 - Killed by Time</title>
                 <meta name="theme-color" content="#FAFAFA" />
                 <link rel="canonical" href="https://killedbygoogle.com" />
                 <meta name="image" content="social/card.png"></meta>
