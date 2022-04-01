@@ -33,6 +33,14 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
     {
       value: FilterType.BLOG,
       label: `Blog (${getCount('blog')})`,
+    },
+    {
+      value: FilterType.ECOMMERCE,
+      label: `E-commerce (${getCount('e-commerce')})`,
+    },
+    {
+      value: FilterType.BBS,
+      label: `BBS (${getCount('bbs')})`,
     }
   ];
 

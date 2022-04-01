@@ -8,4 +8,6 @@ export enum FilterType {
     SOCIAL = 'social',
     BLOG = 'blog',
     MUSIC = 'music',
+    ECOMMERCE = 'e-commerce',
+    BBS = 'bbs',
 }

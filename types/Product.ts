@@ -3,6 +3,8 @@ export enum ProductType {
   SOCIAL = 'social',
   BLOG = 'blog',
   MUSIC = 'music',
+  ECOMMERCE = 'e-commerce',
+  BBS = 'bbs',
 }
 
 export interface Product {

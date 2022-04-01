@@ -14,13 +14,13 @@ import { GetStaticProps } from 'next';
 const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 
     function analytics() {
-        if (typeof window !== 'undefined')
-            return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
+        // if (typeof window !== 'undefined')
+        //     return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
     }
 
     function card() {
-        if (process.env.NODE_ENV === 'production')
-            return (<script async defer src="https://card.codyogden.com/card.js"></script>);
+        // if (process.env.NODE_ENV === 'production')
+        //     return (<script async defer src="https://card.codyogden.com/card.js"></script>);
     }
 
     return (
