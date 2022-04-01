@@ -10,4 +10,5 @@ export enum FilterType {
     MUSIC = 'music',
     ECOMMERCE = 'e-commerce',
     BBS = 'bbs',
+    TECHNOLOGY = 'technology',
 }

@@ -5,6 +5,7 @@ export enum ProductType {
   MUSIC = 'music',
   ECOMMERCE = 'e-commerce',
   BBS = 'bbs',
+  TECHNOLOGY = 'technology',
 }
 
 export interface Product {

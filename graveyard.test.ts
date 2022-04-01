@@ -32,7 +32,7 @@ describe('graveyard.json', () => {
   });
 
   test('Unique product names', () => {
-    const slugs = data.map((product: Product) => slugify(product.name, { lower: true }));
+    const slugs = data.map((product: Product) => product.name.trim());
     const slugSet = new Set(slugs);
     expect(slugSet.size).toBe(data.length);
   });
