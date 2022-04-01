@@ -150,5 +150,13 @@
     "link": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E4%BA%91%E7%BD%91",
     "name": "乌云网",
     "type": "technology"
+  },
+  {
+    "dateClose": "2012-01-01",
+    "dateOpen": "2002-01-01",
+    "description": "「博维论坛」或「博维宽带家园」(bbs.popv.net)，最早是音乐下载及论坛「彭彭听吧」(www.pp-mp3.com)，2003年-2006年间曾拥有大量用户。",
+    "link": "http://web.archive.org/web/20040612154834/http://bbs.popv.net/",
+    "name": "博维论坛",
+    "type": "bbs"
   }
 ]
