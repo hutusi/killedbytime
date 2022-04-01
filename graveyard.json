@@ -146,7 +146,7 @@
   {
     "dateClose": "2016-07-20",
     "dateOpen": "2010-05-01",
-    "description": "「乌云网」将自身标榜为「自由平等的漏洞报告平台」，曾经是中国最大的白帽黑客社区和漏洞报告平台。",
+    "description": "「乌云网」(www.wooyun.org)将自身标榜为「自由平等的漏洞报告平台」，曾经是中国最大的白帽黑客社区和漏洞报告平台。",
     "link": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E4%BA%91%E7%BD%91",
     "name": "乌云网",
     "type": "technology"
@@ -158,5 +158,13 @@
     "link": "http://web.archive.org/web/20040612154834/http://bbs.popv.net/",
     "name": "博维论坛",
     "type": "bbs"
+  },
+  {
+    "dateClose": "2009-08-14",
+    "dateOpen": "2005-12-01",
+    "description": "「校内网」(xiaonei.com)由王兴、王慧文创建，模仿Facebook，一度成为最受学生欢迎的社交网站，被千橡互动收购，后改名「人人网」。",
+    "link": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E4%BA%BA%E7%BD%91",
+    "name": "校内网",
+    "type": "social"
   }
 ]
