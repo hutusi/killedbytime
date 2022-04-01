@@ -1,5 +1,11 @@
-name: Graveyard
+name: Testing
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'graveyard.json'
+      - 'graveyard.test.ts'
+      - 'package.json'
   pull_request:
     branches: [ main ]
     paths:
