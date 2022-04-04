@@ -10,7 +10,7 @@ import {
     Search,
 } from '../components';
 
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 const TRACKING_ID = "G-F6DTX1WEEE";
 ReactGA.initialize(TRACKING_ID);
 
