@@ -25,7 +25,7 @@
 
 ### 1. 提交 issue
 
-按照 issue 模板提交[新 issue](https://github.com/hutusi/killedbytime/issues/new?template=add-an-obituary.md).
+按照 issue 模板提交[新 issue](https://github.com/hutusi/killedbytime/issues/new?template=add-a-product.md).
 
 ### 2. Fork 本仓库并提交 PR
 
