@@ -119,7 +119,7 @@ const Footer = () => (
                     
                 </div>
                 <CopyNotice>
-                    <a href="https://github.com/hutusi/killedbygoogle/blob/main/LICENSE">
+                    <a href="https://github.com/hutusi/killedbytime/blob/main/LICENSE">
                         &copy; 2022 hutusi.com
           </a>
           &nbsp;-&nbsp;
@@ -133,7 +133,7 @@ const Footer = () => (
                 </CopyNotice>
                 <SocialWrapper>
                     <SocialLink
-                        url="https://github.com/hutusi/killedbygoogle"
+                        url="https://github.com/hutusi/killedbytime"
                         altText="GitHub"
                         imgSrc='/github.svg'
                     />

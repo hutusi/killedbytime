@@ -37,4 +37,4 @@
 
 ## 声明
 
-本项目来源于 Cody Odgen 的开源项目[Killed by Google](https://github.com/codyogden/killedbygoogle), License 也沿用原 MIT License. 
+本项目来源于 Cody Ogden 的开源项目[Killed by Google](https://github.com/codyogden/killedbygoogle), License 也沿用原 MIT License. 

@@ -1,10 +1,10 @@
 {
   "name": "killedbytime",
   "version": "3.0.0",
-  "description": "killedbygoogle.com",
+  "description": "jinianbeigu.com",
   "main": "src/index.js",
   "repository": "git@github.com:hutusi/killedbytime.git",
-  "author": "Cody Ogden",
+  "author": "hutusi.com",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.2",
